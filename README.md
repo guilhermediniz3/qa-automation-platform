@@ -23,6 +23,8 @@ O projeto será desenvolvido de forma incremental, começando pela execução ma
 --- Fluxo Jira
 <img width="2064" height="882" alt="image" src="https://github.com/user-attachments/assets/16a8c7eb-91ff-4824-b9ac-52fead593d47" />
 
+--- Arquitetura
+<img width="1536" height="1024" alt="image" src="https://github.com/user-attachments/assets/040d8afe-7be7-4f72-9da3-5d6e5d85db5a" />
 
 
 
