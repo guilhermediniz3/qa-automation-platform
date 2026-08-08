@@ -22,53 +22,6 @@ O projeto será desenvolvido de forma incremental, começando pela execução ma
 
 ---
 
-##  Arquitetura
-
-```text
-                    ┌──────────────┐
-                    │     JIRA     │
-                    │  Workflow    │
-                    └──────┬───────┘
-                           │
-                           ▼
-                    ┌──────────────┐
-                    │    GITHUB    │
-                    │ Repository   │
-                    │ Pull Request │
-                    └──────┬───────┘
-                           │
-                           ▼
-                  ┌──────────────────┐
-                  │  GITHUB ACTIONS  │
-                  │      CI/CD       │
-                  └────────┬─────────┘
-                           │
-                           ▼
-                    ┌──────────────┐
-                    │  PLAYWRIGHT  │
-                    │              │
-                    │ E2E / API    │
-                    └──────┬───────┘
-                           │
-                           ▼
-                  ┌──────────────────┐
-                  │ Test Results     │
-                  │ Screenshots      │
-                  │ Traces           │
-                  │ Reports          │
-                  └──────────────────┘
-
-
-
-
-##  Fluxo Jira
-
-O projeto utiliza um workflow personalizado no Jira para representar
-o ciclo de vida de uma demanda, desde a análise até a produção.
-
-<p align="center">
-  <img width="1000" alt="Fluxo Jira" src="https://github.com/user-attachments/assets/...">
-</p>
 
 
 
