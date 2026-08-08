@@ -58,6 +58,9 @@ O projeto será desenvolvido de forma incremental, começando pela execução ma
                   │ Reports          │
                   └──────────────────┘
 
+
+
+
 ##  Fluxo Jira
 
 O projeto utiliza um workflow personalizado no Jira para representar
