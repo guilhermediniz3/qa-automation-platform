@@ -20,7 +20,9 @@ Construir uma plataforma de QA Automation capaz de integrar:
 
 O projeto será desenvolvido de forma incremental, começando pela execução manual do fluxo e evoluindo gradualmente para automações do processo.
 
----
+--- Fluxo Jira
+<img width="2093" height="969" alt="Screenshot_1" src="https://github.com/user-attachments/assets/b5ff1c76-8cb4-42c1-bfc4-06c66cfc4715" />
+
 
 
 
