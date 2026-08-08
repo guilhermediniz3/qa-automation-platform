@@ -6,7 +6,7 @@ O projeto tem como objetivo demonstrar, de forma prática, como a automação de
 
 ---
 
-## 🎯 Objetivo
+##  Objetivo
 
 Construir uma plataforma de QA Automation capaz de integrar:
 
@@ -22,7 +22,7 @@ O projeto será desenvolvido de forma incremental, começando pela execução ma
 
 ---
 
-## 🏗️ Arquitetura
+##  Arquitetura
 
 ```text
                     ┌──────────────┐
@@ -58,7 +58,7 @@ O projeto será desenvolvido de forma incremental, começando pela execução ma
                   │ Reports          │
                   └──────────────────┘
 
-## 🔄 Fluxo Jira
+##  Fluxo Jira
 
 O projeto utiliza um workflow personalizado no Jira para representar
 o ciclo de vida de uma demanda, desde a análise até a produção.
