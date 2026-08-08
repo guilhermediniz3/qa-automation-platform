@@ -62,7 +62,7 @@ O projeto será desenvolvido de forma incremental, começando pela execução ma
 
 O projeto utiliza um workflow personalizado no Jira para representar
 o ciclo de vida de uma demanda, desde a análise até a produção.
-<img width="1000" alt="Fluxo Jira" src="docs/images/jira-workflow.png">
+
 
 
 
