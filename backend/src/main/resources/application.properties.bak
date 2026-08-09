@@ -1,0 +1,25 @@
+
+server.port=8081
+
+
+spring.datasource.url=jdbc:postgresql://dpg-cviajpadbo4c7391labg-a:5432/testersuite
+spring.datasource.username=testersuite_user
+spring.datasource.password=jH06Ug7k8XKUNy9CGbJTxjKcJs1KjBlR
+
+
+spring.jpa.hibernate.ddl-auto=update
+spring.jpa.show-sql=true
+spring.jpa.properties.hibernate.format_sql=true
+spring.jpa.properties.hibernate.jdbc.lob.non_contextual_creation=true
+
+
+api.security.token.secret=my-secret-key-from-videos
+
+
+spring.flyway.enabled=false
+
+spring.datasource.hikari.connection-timeout=20000
+spring.datasource.hikari.maximum-pool-size=5
+
+# Configuração para PostgreSQL
+spring.jpa.properties.hibernate.dialect=org.hibernate.dialect.PostgreSQLDialect

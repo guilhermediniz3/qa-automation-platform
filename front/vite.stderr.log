@@ -1,0 +1,94 @@
+[2m15:43:57[22m [31m[1m[vite][22m[39m [31mInternal server error: Failed to resolve import "../pages/Resource" from "src/routes/AppRouter.tsx". Does the file exist?[39m
+  Plugin: [35mvite:import-analysis[39m
+  File: [36mC:/qa-automation/front/src/routes/AppRouter.tsx[39m:5:29
+[33m  4  |  import { DashboardPage } from "../pages/Dashboard";
+  5  |  import { LoginPage } from "../pages/Login";
+  6  |  import { ResourcePage } from "../pages/Resource";
+     |                                ^
+  7  |  import { ProtectedRoute } from "./ProtectedRoute";
+  8  |  import { IconCode, IconFileCheck, IconFlask, IconFolders, IconListCheck, IconTestPipe, IconUserCog, IconUsers } from ...[39m
+      at TransformPluginContext._formatLog (file:///C:/qa-automation/front/.yarn/__virtual__/vite-virtual-1ab4c4b9df/3/Users/gdini/AppData/Local/Yarn/Berry/cache/vite-npm-7.3.6-7e42869881-10c0.zip/node_modules/vite/dist/node/chunks/config.js:29079:43)
+      at TransformPluginContext.error (file:///C:/qa-automation/front/.yarn/__virtual__/vite-virtual-1ab4c4b9df/3/Users/gdini/AppData/Local/Yarn/Berry/cache/vite-npm-7.3.6-7e42869881-10c0.zip/node_modules/vite/dist/node/chunks/config.js:29076:14)
+      at normalizeUrl (file:///C:/qa-automation/front/.yarn/__virtual__/vite-virtual-1ab4c4b9df/3/Users/gdini/AppData/Local/Yarn/Berry/cache/vite-npm-7.3.6-7e42869881-10c0.zip/node_modules/vite/dist/node/chunks/config.js:27199:18)
+      at process.processTicksAndRejections (node:internal/process/task_queues:103:5)
+      at async file:///C:/qa-automation/front/.yarn/__virtual__/vite-virtual-1ab4c4b9df/3/Users/gdini/AppData/Local/Yarn/Berry/cache/vite-npm-7.3.6-7e42869881-10c0.zip/node_modules/vite/dist/node/chunks/config.js:27257:32
+      at async Promise.all (index 5)
+      at async TransformPluginContext.transform (file:///C:/qa-automation/front/.yarn/__virtual__/vite-virtual-1ab4c4b9df/3/Users/gdini/AppData/Local/Yarn/Berry/cache/vite-npm-7.3.6-7e42869881-10c0.zip/node_modules/vite/dist/node/chunks/config.js:27225:4)
+      at async EnvironmentPluginContainer.transform (file:///C:/qa-automation/front/.yarn/__virtual__/vite-virtual-1ab4c4b9df/3/Users/gdini/AppData/Local/Yarn/Berry/cache/vite-npm-7.3.6-7e42869881-10c0.zip/node_modules/vite/dist/node/chunks/config.js:28877:14)
+      at async loadAndTransform (file:///C:/qa-automation/front/.yarn/__virtual__/vite-virtual-1ab4c4b9df/3/Users/gdini/AppData/Local/Yarn/Berry/cache/vite-npm-7.3.6-7e42869881-10c0.zip/node_modules/vite/dist/node/chunks/config.js:22746:26)
+      at async viteTransformMiddleware (file:///C:/qa-automation/front/.yarn/__virtual__/vite-virtual-1ab4c4b9df/3/Users/gdini/AppData/Local/Yarn/Berry/cache/vite-npm-7.3.6-7e42869881-10c0.zip/node_modules/vite/dist/node/chunks/config.js:24622:20)
+[2m15:43:59[22m [31m[1m[vite][22m[39m [31mInternal server error: Failed to resolve import "../config/navigation" from "src/layouts/AuthenticatedLayout.tsx". Does the file exist?[39m
+  Plugin: [35mvite:import-analysis[39m
+  File: [36mC:/qa-automation/front/src/layouts/AuthenticatedLayout.tsx[39m:7:33
+[33m  7  |  import { NavLink, Outlet, useLocation } from "react-router-dom";
+  8  |  import { useAuth } from "../contexts/AuthContext";
+  9  |  import { navigationGroups } from "../config/navigation";
+     |                                    ^
+  10 |  export function AuthenticatedLayout() {
+  11 |    _s();[39m
+      at TransformPluginContext._formatLog (file:///C:/qa-automation/front/.yarn/__virtual__/vite-virtual-1ab4c4b9df/3/Users/gdini/AppData/Local/Yarn/Berry/cache/vite-npm-7.3.6-7e42869881-10c0.zip/node_modules/vite/dist/node/chunks/config.js:29079:43)
+      at TransformPluginContext.error (file:///C:/qa-automation/front/.yarn/__virtual__/vite-virtual-1ab4c4b9df/3/Users/gdini/AppData/Local/Yarn/Berry/cache/vite-npm-7.3.6-7e42869881-10c0.zip/node_modules/vite/dist/node/chunks/config.js:29076:14)
+      at normalizeUrl (file:///C:/qa-automation/front/.yarn/__virtual__/vite-virtual-1ab4c4b9df/3/Users/gdini/AppData/Local/Yarn/Berry/cache/vite-npm-7.3.6-7e42869881-10c0.zip/node_modules/vite/dist/node/chunks/config.js:27199:18)
+      at process.processTicksAndRejections (node:internal/process/task_queues:103:5)
+      at async file:///C:/qa-automation/front/.yarn/__virtual__/vite-virtual-1ab4c4b9df/3/Users/gdini/AppData/Local/Yarn/Berry/cache/vite-npm-7.3.6-7e42869881-10c0.zip/node_modules/vite/dist/node/chunks/config.js:27257:32
+      at async Promise.all (index 7)
+      at async TransformPluginContext.transform (file:///C:/qa-automation/front/.yarn/__virtual__/vite-virtual-1ab4c4b9df/3/Users/gdini/AppData/Local/Yarn/Berry/cache/vite-npm-7.3.6-7e42869881-10c0.zip/node_modules/vite/dist/node/chunks/config.js:27225:4)
+      at async EnvironmentPluginContainer.transform (file:///C:/qa-automation/front/.yarn/__virtual__/vite-virtual-1ab4c4b9df/3/Users/gdini/AppData/Local/Yarn/Berry/cache/vite-npm-7.3.6-7e42869881-10c0.zip/node_modules/vite/dist/node/chunks/config.js:28877:14)
+      at async loadAndTransform (file:///C:/qa-automation/front/.yarn/__virtual__/vite-virtual-1ab4c4b9df/3/Users/gdini/AppData/Local/Yarn/Berry/cache/vite-npm-7.3.6-7e42869881-10c0.zip/node_modules/vite/dist/node/chunks/config.js:22746:26)
+      at async viteTransformMiddleware (file:///C:/qa-automation/front/.yarn/__virtual__/vite-virtual-1ab4c4b9df/3/Users/gdini/AppData/Local/Yarn/Berry/cache/vite-npm-7.3.6-7e42869881-10c0.zip/node_modules/vite/dist/node/chunks/config.js:24622:20)
+[2m15:44:04[22m [31m[1m[vite][22m[39m [31m[2m(client)[22m[39m Pre-transform error: Failed to resolve import "../pages/Resource" from "src/routes/AppRouter.tsx". Does the file exist?
+  Plugin: [35mvite:import-analysis[39m
+  File: [36mC:/qa-automation/front/src/routes/AppRouter.tsx[39m:5:29
+[33m  4  |  import { DashboardPage } from "../pages/Dashboard";
+  5  |  import { LoginPage } from "../pages/Login";
+  6  |  import { ResourcePage } from "../pages/Resource";
+     |                                ^
+  7  |  import { ProtectedRoute } from "./ProtectedRoute";
+  8  |  import { IconCode, IconFileCheck, IconFlask, IconFolders, IconListCheck, IconTestPipe, IconUserCog, IconUsers } from ...[39m
+[2m15:44:05[22m [31m[1m[vite][22m[39m [31mInternal server error: Failed to resolve import "../pages/Resource" from "src/routes/AppRouter.tsx". Does the file exist?[39m
+  Plugin: [35mvite:import-analysis[39m
+  File: [36mC:/qa-automation/front/src/routes/AppRouter.tsx[39m:5:29
+[33m  4  |  import { DashboardPage } from "../pages/Dashboard";
+  5  |  import { LoginPage } from "../pages/Login";
+  6  |  import { ResourcePage } from "../pages/Resource";
+     |                                ^
+  7  |  import { ProtectedRoute } from "./ProtectedRoute";
+  8  |  import { IconCode, IconFileCheck, IconFlask, IconFolders, IconListCheck, IconTestPipe, IconUserCog, IconUsers } from ...[39m
+      at TransformPluginContext._formatLog (file:///C:/qa-automation/front/.yarn/__virtual__/vite-virtual-1ab4c4b9df/3/Users/gdini/AppData/Local/Yarn/Berry/cache/vite-npm-7.3.6-7e42869881-10c0.zip/node_modules/vite/dist/node/chunks/config.js:29079:43)
+      at TransformPluginContext.error (file:///C:/qa-automation/front/.yarn/__virtual__/vite-virtual-1ab4c4b9df/3/Users/gdini/AppData/Local/Yarn/Berry/cache/vite-npm-7.3.6-7e42869881-10c0.zip/node_modules/vite/dist/node/chunks/config.js:29076:14)
+      at normalizeUrl (file:///C:/qa-automation/front/.yarn/__virtual__/vite-virtual-1ab4c4b9df/3/Users/gdini/AppData/Local/Yarn/Berry/cache/vite-npm-7.3.6-7e42869881-10c0.zip/node_modules/vite/dist/node/chunks/config.js:27199:18)
+      at process.processTicksAndRejections (node:internal/process/task_queues:103:5)
+      at async file:///C:/qa-automation/front/.yarn/__virtual__/vite-virtual-1ab4c4b9df/3/Users/gdini/AppData/Local/Yarn/Berry/cache/vite-npm-7.3.6-7e42869881-10c0.zip/node_modules/vite/dist/node/chunks/config.js:27257:32
+      at async Promise.all (index 5)
+      at async TransformPluginContext.transform (file:///C:/qa-automation/front/.yarn/__virtual__/vite-virtual-1ab4c4b9df/3/Users/gdini/AppData/Local/Yarn/Berry/cache/vite-npm-7.3.6-7e42869881-10c0.zip/node_modules/vite/dist/node/chunks/config.js:27225:4)
+      at async EnvironmentPluginContainer.transform (file:///C:/qa-automation/front/.yarn/__virtual__/vite-virtual-1ab4c4b9df/3/Users/gdini/AppData/Local/Yarn/Berry/cache/vite-npm-7.3.6-7e42869881-10c0.zip/node_modules/vite/dist/node/chunks/config.js:28877:14)
+      at async loadAndTransform (file:///C:/qa-automation/front/.yarn/__virtual__/vite-virtual-1ab4c4b9df/3/Users/gdini/AppData/Local/Yarn/Berry/cache/vite-npm-7.3.6-7e42869881-10c0.zip/node_modules/vite/dist/node/chunks/config.js:22746:26)
+      at async viteTransformMiddleware (file:///C:/qa-automation/front/.yarn/__virtual__/vite-virtual-1ab4c4b9df/3/Users/gdini/AppData/Local/Yarn/Berry/cache/vite-npm-7.3.6-7e42869881-10c0.zip/node_modules/vite/dist/node/chunks/config.js:24622:20)
+[2m15:44:14[22m [31m[1m[vite][22m[39m [31m[2m(client)[22m[39m Pre-transform error: Failed to resolve import "../pages/Resource" from "src/routes/AppRouter.tsx". Does the file exist?
+  Plugin: [35mvite:import-analysis[39m
+  File: [36mC:/qa-automation/front/src/routes/AppRouter.tsx[39m:5:29
+[33m  4  |  import { DashboardPage } from "../pages/Dashboard";
+  5  |  import { LoginPage } from "../pages/Login";
+  6  |  import { ResourcePage } from "../pages/Resource";
+     |                                ^
+  7  |  import { ProtectedRoute } from "./ProtectedRoute";
+  8  |  import { IconCode, IconFileCheck, IconFlask, IconFolders, IconListCheck, IconTestPipe, IconUserCog, IconUsers } from ...[39m
+[2m15:44:14[22m [31m[1m[vite][22m[39m [31mInternal server error: Failed to resolve import "../pages/Resource" from "src/routes/AppRouter.tsx". Does the file exist?[39m
+  Plugin: [35mvite:import-analysis[39m
+  File: [36mC:/qa-automation/front/src/routes/AppRouter.tsx[39m:5:29
+[33m  4  |  import { DashboardPage } from "../pages/Dashboard";
+  5  |  import { LoginPage } from "../pages/Login";
+  6  |  import { ResourcePage } from "../pages/Resource";
+     |                                ^
+  7  |  import { ProtectedRoute } from "./ProtectedRoute";
+  8  |  import { IconCode, IconFileCheck, IconFlask, IconFolders, IconListCheck, IconTestPipe, IconUserCog, IconUsers } from ...[39m
+      at TransformPluginContext._formatLog (file:///C:/qa-automation/front/.yarn/__virtual__/vite-virtual-1ab4c4b9df/3/Users/gdini/AppData/Local/Yarn/Berry/cache/vite-npm-7.3.6-7e42869881-10c0.zip/node_modules/vite/dist/node/chunks/config.js:29079:43)
+      at TransformPluginContext.error (file:///C:/qa-automation/front/.yarn/__virtual__/vite-virtual-1ab4c4b9df/3/Users/gdini/AppData/Local/Yarn/Berry/cache/vite-npm-7.3.6-7e42869881-10c0.zip/node_modules/vite/dist/node/chunks/config.js:29076:14)
+      at normalizeUrl (file:///C:/qa-automation/front/.yarn/__virtual__/vite-virtual-1ab4c4b9df/3/Users/gdini/AppData/Local/Yarn/Berry/cache/vite-npm-7.3.6-7e42869881-10c0.zip/node_modules/vite/dist/node/chunks/config.js:27199:18)
+      at process.processTicksAndRejections (node:internal/process/task_queues:103:5)
+      at async file:///C:/qa-automation/front/.yarn/__virtual__/vite-virtual-1ab4c4b9df/3/Users/gdini/AppData/Local/Yarn/Berry/cache/vite-npm-7.3.6-7e42869881-10c0.zip/node_modules/vite/dist/node/chunks/config.js:27257:32
+      at async Promise.all (index 5)
+      at async TransformPluginContext.transform (file:///C:/qa-automation/front/.yarn/__virtual__/vite-virtual-1ab4c4b9df/3/Users/gdini/AppData/Local/Yarn/Berry/cache/vite-npm-7.3.6-7e42869881-10c0.zip/node_modules/vite/dist/node/chunks/config.js:27225:4)
+      at async EnvironmentPluginContainer.transform (file:///C:/qa-automation/front/.yarn/__virtual__/vite-virtual-1ab4c4b9df/3/Users/gdini/AppData/Local/Yarn/Berry/cache/vite-npm-7.3.6-7e42869881-10c0.zip/node_modules/vite/dist/node/chunks/config.js:28877:14)
+      at async loadAndTransform (file:///C:/qa-automation/front/.yarn/__virtual__/vite-virtual-1ab4c4b9df/3/Users/gdini/AppData/Local/Yarn/Berry/cache/vite-npm-7.3.6-7e42869881-10c0.zip/node_modules/vite/dist/node/chunks/config.js:22746:26)
+      at async viteTransformMiddleware (file:///C:/qa-automation/front/.yarn/__virtual__/vite-virtual-1ab4c4b9df/3/Users/gdini/AppData/Local/Yarn/Berry/cache/vite-npm-7.3.6-7e42869881-10c0.zip/node_modules/vite/dist/node/chunks/config.js:24622:20)
