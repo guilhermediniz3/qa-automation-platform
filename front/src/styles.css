@@ -1,0 +1,39 @@
+:root { background: var(--mantine-color-body); }
+* { box-sizing: border-box; }
+body { margin: 0; min-width: 320px; }
+.login-page { min-height: 100vh; position: relative; overflow: hidden; background: #090d1c; }
+.login-layout { min-height: 100vh; display: grid; grid-template-columns: minmax(0, 1.12fr) minmax(420px, .88fr); position: relative; z-index: 1; }
+.brand-panel { padding: clamp(2rem, 6vw, 6.5rem); display: flex; flex-direction: column; justify-content: center; background: linear-gradient(135deg, rgba(17, 27, 65, .82), rgba(9, 13, 28, .25)); border-right: 1px solid rgba(143, 160, 255, .1); }
+.brand-lockup { position: absolute; top: 2rem; }
+.brand-copy { max-width: 570px; }
+.brand-title { color: white; font-size: clamp(2.7rem, 4vw, 4.7rem); letter-spacing: -0.055em; line-height: 1.03; margin-bottom: 1.5rem; }
+.value-list { margin-top: 3.5rem; }
+.login-main { display: grid; place-items: center; padding: 2rem; }
+.login-card { width: min(100%, 455px); background: linear-gradient(145deg, rgba(27, 34, 67, .84), rgba(14, 19, 39, .92)); border: 1px solid rgba(160, 177, 255, .15); box-shadow: 0 28px 70px rgba(0, 0, 0, .35); backdrop-filter: blur(18px); }
+.login-card .mantine-InputWrapper-label { color: #e6eaff; font-weight: 600; margin-bottom: 7px; }
+.login-card .mantine-Input-input { background: rgba(6, 10, 25, .5); border-color: rgba(150, 165, 230, .2); color: #fff; height: 48px; }
+.login-card .mantine-Input-input:focus { border-color: var(--mantine-color-indigo-5); }
+.login-card .mantine-Button-root { height: 50px; background: linear-gradient(105deg, var(--mantine-color-indigo-6), #5169e8); box-shadow: 0 10px 22px rgba(72, 91, 224, .25); }
+.ambient { position: absolute; border-radius: 50%; filter: blur(5px); pointer-events: none; }
+.ambient-one { width: 38rem; height: 38rem; top: -18rem; left: 18%; background: rgba(76, 76, 222, .20); }
+.ambient-two { width: 26rem; height: 26rem; right: -12rem; bottom: -12rem; background: rgba(24, 181, 212, .12); }
+.app-shell { min-height: 100vh; background: var(--mantine-color-body); }
+.app-header { border-bottom: 1px solid var(--mantine-color-default-border); background: color-mix(in srgb, var(--mantine-color-body) 88%, transparent); backdrop-filter: blur(14px); }
+.app-navbar { border-right: 1px solid var(--mantine-color-default-border); background: var(--mantine-color-body); }
+.app-content { min-height: calc(100vh - 68px); background: radial-gradient(circle at 80% -20%, color-mix(in srgb, var(--mantine-color-indigo-6) 10%, transparent), transparent 34%); }
+.side-navigation, .side-submenu { list-style: none; padding: 0; margin: 0; }
+.side-navigation { display: grid; gap: 5px; }
+.side-link, .side-group-trigger { width: 100%; min-height: 42px; padding: 0 12px; border-radius: 8px; display: flex; align-items: center; gap: 11px; color: var(--mantine-color-dimmed); text-decoration: none; font-size: var(--mantine-font-size-sm); font-weight: 600; transition: background .15s ease, color .15s ease; }
+.side-group-trigger { justify-content: space-between; color: var(--mantine-color-dimmed); }
+.side-group-trigger span:first-child { flex: 1; text-align: left; }
+.side-link:hover, .side-group-trigger:hover { color: var(--mantine-color-text); background: var(--mantine-color-default-hover); }
+.side-link.active { color: var(--mantine-color-indigo-6); background: var(--mantine-color-indigo-light); }
+.side-group-trigger.active-group { color: var(--mantine-color-text); }
+.side-submenu { display: grid; gap: 3px; padding: 4px 0 6px 12px; }
+.side-sub-link { font-weight: 500; }
+.sidebar-footer { border-top: 1px solid var(--mantine-color-default-border); }
+.page-container { width: min(100%, 1280px); margin: 0 auto; padding: clamp(1.5rem, 3vw, 3rem); }
+.page-heading h1 { letter-spacing: -.03em; }
+.empty-panel, .dashboard-empty { margin-top: 2.25rem; min-height: 285px; display: flex; flex-direction: column; justify-content: center; align-items: flex-start; background: var(--mantine-color-default); border: 1px solid var(--mantine-color-default-border); }
+.dashboard-empty { align-items: center; justify-content: center; }
+@media (max-width: 800px) { .login-layout { grid-template-columns: 1fr; } .brand-panel { display: none; } .login-main { min-height: 100vh; padding: 1.25rem; } }

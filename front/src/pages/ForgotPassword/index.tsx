@@ -1,0 +1,9 @@
+import { Alert, Anchor, Box, Button, Paper, Stack, Text, TextInput, Title } from '@mantine/core';
+import { useForm } from '@mantine/form';
+import { IconAlertCircle, IconArrowLeft, IconAt, IconCheck } from '@tabler/icons-react';
+import { useState } from 'react';
+import { Link } from 'react-router-dom';
+import { requestPasswordReset } from '../../api/auth.api';
+import { AuthFrame } from '../../components/AuthFrame';
+
+export function ForgotPasswordPage() { const [success, setSuccess] = useState(false); const [error, setError] = useState<string | null>(null); const form = useForm({ initialValues: { email: '' }, validate: { email: (value) => /^\S+@\S+\.\S+$/.test(value) ? null : 'Informe um e-mail válido.' } }); const submit = form.onSubmit(async ({ email }) => { setError(null); try { await requestPasswordReset({ email }); setSuccess(true); } catch (reason) { setError(reason instanceof Error ? reason.message : 'Não foi possível enviar o e-mail.'); } }); return <AuthFrame><Paper className="login-card" radius="xl" p={{ base: 'xl', sm: 40 }}><Stack gap="xl"><Box><Title order={2} c="white">Redefinir senha</Title><Text c="dimmed" mt={6}>Informe seu e-mail para receber o link de redefinição.</Text></Box>{success ? <Alert color="teal" icon={<IconCheck size={18} />}>Se houver uma conta com este e-mail, você receberá as instruções em instantes.</Alert> : <form onSubmit={submit} noValidate><Stack gap="md"><TextInput label="E-mail" leftSection={<IconAt size={18} />} {...form.getInputProps('email')} />{error && <Alert color="red" icon={<IconAlertCircle size={18} />}>{error}</Alert>}<Button type="submit" loading={form.submitting}>Enviar link</Button></Stack></form>}<Anchor component={Link} to="/login" size="sm"><IconArrowLeft size={14} /> Voltar para entrar</Anchor></Stack></Paper></AuthFrame>; }
